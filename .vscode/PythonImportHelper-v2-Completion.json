@@ -385,6 +385,15 @@
         "documentation": {}
     },
     {
+        "label": "UserLoginSerializer",
+        "kind": 6,
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
+        "peekOfCode": "class UserLoginSerializer(serializers.ModelSerializer):\n    email = serializers.EmailField()\n    password = serializers.CharField()",
+        "detail": "authentication.serializers",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "kind": 5,
         "importPath": "authentication.serializers",
@@ -398,7 +407,7 @@
         "kind": 5,
         "importPath": "authentication.urls",
         "description": "authentication.urls",
-        "peekOfCode": "urlpatterns = [\n    path('auth/register/', views.register, name='register'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('auth/register/', views.register, name='register'),\n    path('auth/login/', views.login, name='login'),\n    # path('auth/logout/', views.logout, name='logout'),\n    # path('auth/refresh/', views.logout, name='refresh'),\n    # path('profile', views.profile, name='profile'),\n]",
         "detail": "authentication.urls",
         "documentation": {}
     },
@@ -408,6 +417,15 @@
         "importPath": "authentication.views",
         "description": "authentication.views",
         "peekOfCode": "def register(request):\n    serializer = UserRegistrationSerializer(data=request.data)\n    if serializer.is_valid():\n        user = serializer.save()\n        refresh = RefreshToken.for_user(user)\n        return Response({\n            'user': {\n                'id': user.id,\n                'username': user.username,\n                'email': user.email,",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def login(request):\n    print(\"====> Request data:\", request.data)\n    email = request.data.get(\"email\")\n    password = request.data.get(\"password\")\n    print(\"=====> email:\" , email)\n    print(\"=====> email:\" , password)\n    user = User.objects.get(email=email)\n    print(\"=====> user:\" , user)\n    if user and not user.is_active:\n        return Response({\"detail\": \"Account is not active\"}, status=status.HTTP_403_FORBIDDEN)",
         "detail": "authentication.views",
         "documentation": {}
     },
