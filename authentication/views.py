@@ -84,7 +84,7 @@ def ForgotPassword(request):
     
     # Génération d'un UID + token 
     uid = urlsafe_base64_encode(force_bytes(user.pk))
-    print("=====> uid :" , uid)
+  
     token = PasswordResetTokenGenerator().make_token(user) 
 
     reset_link = f"http://localhost:3000/reset-password/{uid}/{token}/"
@@ -130,10 +130,10 @@ def updateUserProfile(request):
         if serializer.is_valid():
             serializer.save()
             return Response(
-                {
-                 "message": "User profile updated successfully",
-                 "user" :  serializer.data
-                 }
+                    {
+                        "message": "User profile updated successfully",
+                        "user" :  serializer.data
+                    }
                 )
     except Exception as e:
         return Response({"detail": str(e)}, status=status.HTTP_400_BAD_REQUEST)
