@@ -83,6 +83,22 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -104,6 +120,14 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -155,6 +179,38 @@
         "documentation": {}
     },
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "permissions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "filters",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "get_user_model",
         "importPath": "django.contrib.auth",
         "description": "django.contrib.auth",
@@ -176,6 +232,14 @@
         "description": "django.contrib.auth.password_validation",
         "isExtraImport": true,
         "detail": "django.contrib.auth.password_validation",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
         "documentation": {}
     },
     {
@@ -369,6 +433,30 @@
         "description": "django.http",
         "isExtraImport": true,
         "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "authentication.models",
+        "description": "authentication.models",
+        "isExtraImport": true,
+        "detail": "authentication.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "authentication.models",
+        "description": "authentication.models",
+        "isExtraImport": true,
+        "detail": "authentication.models",
+        "documentation": {}
+    },
+    {
+        "label": "PageNumberPagination",
+        "importPath": "rest_framework.pagination",
+        "description": "rest_framework.pagination",
+        "isExtraImport": true,
+        "detail": "rest_framework.pagination",
         "documentation": {}
     },
     {
@@ -765,6 +853,33 @@
         "description": "tracking.views",
         "peekOfCode": "def api_test_home(request):\n    return JsonResponse({\"message\": \"Le projet Car Tracking fonctionne !\"})",
         "detail": "tracking.views",
+        "documentation": {}
+    },
+    {
+        "label": "UsersManagementConfig",
+        "kind": 6,
+        "importPath": "users_management.apps",
+        "description": "users_management.apps",
+        "peekOfCode": "class UsersManagementConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'users_management'",
+        "detail": "users_management.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AdminUserSerializer",
+        "kind": 6,
+        "importPath": "users_management.serializers",
+        "description": "users_management.serializers",
+        "peekOfCode": "class AdminUserSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = User\n        fields = ['id', 'username', 'email', 'first_name', 'last_name', 'role', 'is_active']\n        read_only_fieds = ['id']",
+        "detail": "users_management.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "AdminUserViewSet",
+        "kind": 6,
+        "importPath": "users_management.views",
+        "description": "users_management.views",
+        "peekOfCode": "class AdminUserViewSet(viewsets.M)\n    queryset =",
+        "detail": "users_management.views",
         "documentation": {}
     },
     {
