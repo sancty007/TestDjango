@@ -8,6 +8,7 @@ from django.utils.http import urlsafe_base64_encode
 from django.utils.encoding import force_bytes
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from django.contrib.auth import get_user_model
+from rest_framework.permissions import IsAuthenticated
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
@@ -106,3 +107,35 @@ def changePassword(request, id):
         obj.set_password(new_password)
         obj.save()
         return Response({'success': 'password changed successfully'}, status=200)
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def getUserProfile(request):
+    try :
+        user = request.user
+        serializer = UserRegistrationSerializer(user, many=False)
+        return Response({
+            "message": "User profile retrieved successfully",
+            "user": serializer.data
+        })
+    except Exception as e : 
+        return Response({"detail": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+@api_view(['PUT'])
+@permission_classes([IsAuthenticated])
+def updateUserProfile(request):
+    try :
+        user = request.user
+        serializer = UserRegistrationSerializer(user, data=request.data, partial=True)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(
+                {
+                 "message": "User profile updated successfully",
+                 "user" :  serializer.data
+                 }
+                )
+    except Exception as e:
+        return Response({"detail": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+
