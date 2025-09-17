@@ -163,6 +163,14 @@
         "documentation": {}
     },
     {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
         "label": "validate_password",
         "importPath": "django.contrib.auth.password_validation",
         "description": "django.contrib.auth.password_validation",
@@ -272,6 +280,30 @@
         "description": "rest_framework_simplejwt.tokens",
         "isExtraImport": true,
         "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetTokenGenerator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
         "documentation": {}
     },
     {
@@ -389,7 +421,16 @@
         "kind": 6,
         "importPath": "authentication.serializers",
         "description": "authentication.serializers",
-        "peekOfCode": "class UserLoginSerializer(serializers.ModelSerializer):\n    email = serializers.EmailField()\n    password = serializers.CharField()",
+        "peekOfCode": "class UserLoginSerializer(serializers.ModelSerializer):\n    email = serializers.EmailField()\n    password = serializers.CharField()\nclass UserLogOutSerializer(serializers.ModelSerializer):\n    refresh_token = serializers.CharField()",
+        "detail": "authentication.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogOutSerializer",
+        "kind": 6,
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
+        "peekOfCode": "class UserLogOutSerializer(serializers.ModelSerializer):\n    refresh_token = serializers.CharField()",
         "detail": "authentication.serializers",
         "documentation": {}
     },
@@ -407,7 +448,7 @@
         "kind": 5,
         "importPath": "authentication.urls",
         "description": "authentication.urls",
-        "peekOfCode": "urlpatterns = [\n    path('auth/register/', views.register, name='register'),\n    path('auth/login/', views.login, name='login'),\n    # path('auth/logout/', views.logout, name='logout'),\n    # path('auth/refresh/', views.logout, name='refresh'),\n    # path('profile', views.profile, name='profile'),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('auth/register/', views.register, name='register'),\n    path('auth/login/', views.login, name='login'),\n    path('auth/forgotPassword', views.ForgotPassword, name='ForgotPassword'),\n    path('auth/changePassword/<int:id>', views.changePassword, name='changePassword'), \n    # path('auth/refresh/', views.logout, name='refresh'),\n    # path('profile', views.profile, name='profile'),\n]",
         "detail": "authentication.urls",
         "documentation": {}
     },
@@ -425,7 +466,25 @@
         "kind": 2,
         "importPath": "authentication.views",
         "description": "authentication.views",
-        "peekOfCode": "def login(request):\n    print(\"====> Request data:\", request.data)\n    email = request.data.get(\"email\")\n    password = request.data.get(\"password\")\n    print(\"=====> email:\" , email)\n    print(\"=====> email:\" , password)\n    user = User.objects.get(email=email)\n    print(\"=====> user:\" , user)\n    if user and not user.is_active:\n        return Response({\"detail\": \"Account is not active\"}, status=status.HTTP_403_FORBIDDEN)",
+        "peekOfCode": "def login(request):\n    try: \n        print(\"====> Request data:\", request.data)\n        email = request.data.get(\"email\")\n        password = request.data.get(\"password\")\n        print(\"=====> email:\" , email)\n        print(\"=====> email:\" , password)\n        user = User.objects.get(email=email)\n        print(\"=====> user:\" , user)\n        if user and not user.is_active:",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPassword",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def ForgotPassword(request):\n    email = request.data.get(\"email\")\n    print(\"=====> email:\" , email)\n    if not email :\n        return Response({\"error\": \"Email requis\"}, status=status.HTTP_400_BAD_REQUEST)\n    try:\n        user = User.objects.get(email=email)\n        print(\"=====> user:\" , user)\n    except User.DoesNotExist:\n        return Response({\"error\": \"Aucun utilisateur avec cet email\"}, status=status.HTTP_404_NOT_FOUND)",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "changePassword",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def changePassword(request, id):\n    password = request.data['password']\n    new_password = request.data['new_password']\n    obj = get_user_model().objects.get(pk=id)\n    if not obj.check_password(raw_password=password):\n        return Response({'error': 'password not match'}, status=400)\n    else:\n        obj.set_password(new_password)\n        obj.save()\n        return Response({'success': 'password changed successfully'}, status=200)",
         "detail": "authentication.views",
         "documentation": {}
     },
@@ -488,7 +547,7 @@
         "kind": 5,
         "importPath": "car_tracking_backend_api.settings",
         "description": "car_tracking_backend_api.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',  # Inscription sans authentification\n    ],\n}\nfrom datetime import timedelta\nAUTH_USER_MODEL = 'authentication.User'",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',  # Inscription sans authentification\n    ],\n}\nAUTH_USER_MODEL = 'authentication.User'\nMIDDLEWARE = [",
         "detail": "car_tracking_backend_api.settings",
         "documentation": {}
     },
@@ -497,7 +556,7 @@
         "kind": 5,
         "importPath": "car_tracking_backend_api.settings",
         "description": "car_tracking_backend_api.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'authentication.User'\nMIDDLEWARE = [\n    # cors \n    'corsheaders.middleware.CorsMiddleware',\n    # middlewares\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
+        "peekOfCode": "AUTH_USER_MODEL = 'authentication.User'\nMIDDLEWARE = [\n    #cors \n    'corsheaders.middleware.CorsMiddleware',\n    # middlewares\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
         "detail": "car_tracking_backend_api.settings",
         "documentation": {}
     },
@@ -506,7 +565,7 @@
         "kind": 5,
         "importPath": "car_tracking_backend_api.settings",
         "description": "car_tracking_backend_api.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    # cors \n    'corsheaders.middleware.CorsMiddleware',\n    # middlewares\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
+        "peekOfCode": "MIDDLEWARE = [\n    #cors \n    'corsheaders.middleware.CorsMiddleware',\n    # middlewares\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
         "detail": "car_tracking_backend_api.settings",
         "documentation": {}
     },

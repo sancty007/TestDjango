@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+from datetime import timedelta
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -41,11 +42,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'corsheaders',
-    
-    # traking 
+    # traking
     'tracking',
     'authentication',
-   
 
 ]
 
@@ -58,14 +57,10 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.AllowAny',  # Inscription sans authentification
     ],
 }
-
-from datetime import timedelta
-
-
 AUTH_USER_MODEL = 'authentication.User'
 
 MIDDLEWARE = [
-    # cors 
+    #cors 
     'corsheaders.middleware.CorsMiddleware',
 
     # middlewares

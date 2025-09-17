@@ -25,4 +25,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 class UserLoginSerializer(serializers.ModelSerializer):
     email = serializers.EmailField()
     password = serializers.CharField()
-    
+
+class UserLogOutSerializer(serializers.ModelSerializer):
+    refresh_token = serializers.CharField()
+
