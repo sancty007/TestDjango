@@ -29,3 +29,12 @@ class UserLoginSerializer(serializers.ModelSerializer):
 class UserLogOutSerializer(serializers.ModelSerializer):
     refresh_token = serializers.CharField()
 
+class UserUpdateSerializer(serializers.ModelSerializer) :
+    class Meta:
+        model=User
+        fields = ('username','first_name','last_name','email')
+
+class UserGetProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = '__all__'

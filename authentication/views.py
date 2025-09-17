@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
-from .serializers import User,UserRegistrationSerializer
+from .serializers import User,UserRegistrationSerializer,UserUpdateSerializer,UserGetProfileSerializer
 from django.utils.http import urlsafe_base64_encode
 from django.utils.encoding import force_bytes
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
@@ -113,7 +113,7 @@ def changePassword(request, id):
 def getUserProfile(request):
     try :
         user = request.user
-        serializer = UserRegistrationSerializer(user, many=False)
+        serializer = UserGetProfileSerializer(user, many=False)
         return Response({
             "message": "User profile retrieved successfully",
             "user": serializer.data
@@ -126,7 +126,7 @@ def getUserProfile(request):
 def updateUserProfile(request):
     try :
         user = request.user
-        serializer = UserRegistrationSerializer(user, data=request.data, partial=True)
+        serializer = UserUpdateSerializer(user, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
             return Response(
