@@ -1,0 +1,779 @@
+[
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password",
+        "importPath": "django.contrib.auth.password_validation",
+        "description": "django.contrib.auth.password_validation",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.password_validation",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "permission_classes",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "rest_framework_simplejwt.tokens",
+        "description": "rest_framework_simplejwt.tokens",
+        "isExtraImport": true,
+        "detail": "rest_framework_simplejwt.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordResetTokenGenerator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "authentication.migrations.0001_initial",
+        "description": "authentication.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "authentication.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationConfig",
+        "kind": 6,
+        "importPath": "authentication.apps",
+        "description": "authentication.apps",
+        "peekOfCode": "class AuthenticationConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'authentication'",
+        "detail": "authentication.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "authentication.models",
+        "description": "authentication.models",
+        "peekOfCode": "class User(AbstractUser):\n    ROLE_CHOICES = (\n        ('admin', 'Admin'),\n        ('user', 'User'),\n    )\n    email = models.EmailField(unique=True)\n    role = models.CharField(max_length=10, choices=ROLE_CHOICES, default='user')\n    USERNAME_FIELD = 'email'\n    REQUIRED_FIELDS = ['username']\n    def __str__(self):",
+        "detail": "authentication.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegistrationSerializer",
+        "kind": 6,
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
+        "peekOfCode": "class UserRegistrationSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(write_only=True, validators=[validate_password])\n    password_confirm = serializers.CharField(write_only=True)\n    class Meta:\n        model = User\n        fields = ('username', 'email', 'password', 'password_confirm')\n    def validate(self, attrs):\n        if attrs['password'] != attrs['password_confirm']:\n            raise serializers.ValidationError({\"password\": \"Les mots de passe ne correspondent pas\"})\n        return attrs",
+        "detail": "authentication.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginSerializer",
+        "kind": 6,
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
+        "peekOfCode": "class UserLoginSerializer(serializers.ModelSerializer):\n    email = serializers.EmailField()\n    password = serializers.CharField()\nclass UserLogOutSerializer(serializers.ModelSerializer):\n    refresh_token = serializers.CharField()",
+        "detail": "authentication.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogOutSerializer",
+        "kind": 6,
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
+        "peekOfCode": "class UserLogOutSerializer(serializers.ModelSerializer):\n    refresh_token = serializers.CharField()",
+        "detail": "authentication.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "authentication.serializers",
+        "description": "authentication.serializers",
+        "peekOfCode": "User = get_user_model()\nclass UserRegistrationSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(write_only=True, validators=[validate_password])\n    password_confirm = serializers.CharField(write_only=True)\n    class Meta:\n        model = User\n        fields = ('username', 'email', 'password', 'password_confirm')\n    def validate(self, attrs):\n        if attrs['password'] != attrs['password_confirm']:\n            raise serializers.ValidationError({\"password\": \"Les mots de passe ne correspondent pas\"})",
+        "detail": "authentication.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "authentication.urls",
+        "description": "authentication.urls",
+        "peekOfCode": "urlpatterns = [\n    path('auth/register/', views.register, name='register'),\n    path('auth/login/', views.login, name='login'),\n    path('auth/forgotPassword', views.ForgotPassword, name='ForgotPassword'),\n    path('auth/changePassword/<int:id>', views.changePassword, name='changePassword'), \n    # path('auth/refresh/', views.logout, name='refresh'),\n    # path('profile', views.profile, name='profile'),\n]",
+        "detail": "authentication.urls",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def register(request):\n    serializer = UserRegistrationSerializer(data=request.data)\n    if serializer.is_valid():\n        user = serializer.save()\n        refresh = RefreshToken.for_user(user)\n        return Response({\n            'user': {\n                'id': user.id,\n                'username': user.username,\n                'email': user.email,",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def login(request):\n    try: \n        print(\"====> Request data:\", request.data)\n        email = request.data.get(\"email\")\n        password = request.data.get(\"password\")\n        print(\"=====> email:\" , email)\n        print(\"=====> email:\" , password)\n        user = User.objects.get(email=email)\n        print(\"=====> user:\" , user)\n        if user and not user.is_active:",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "ForgotPassword",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def ForgotPassword(request):\n    email = request.data.get(\"email\")\n    print(\"=====> email:\" , email)\n    if not email :\n        return Response({\"error\": \"Email requis\"}, status=status.HTTP_400_BAD_REQUEST)\n    try:\n        user = User.objects.get(email=email)\n        print(\"=====> user:\" , user)\n    except User.DoesNotExist:\n        return Response({\"error\": \"Aucun utilisateur avec cet email\"}, status=status.HTTP_404_NOT_FOUND)",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "changePassword",
+        "kind": 2,
+        "importPath": "authentication.views",
+        "description": "authentication.views",
+        "peekOfCode": "def changePassword(request, id):\n    password = request.data['password']\n    new_password = request.data['new_password']\n    obj = get_user_model().objects.get(pk=id)\n    if not obj.check_password(raw_password=password):\n        return Response({'error': 'password not match'}, status=400)\n    else:\n        obj.set_password(new_password)\n        obj.save()\n        return Response({'success': 'password changed successfully'}, status=200)",
+        "detail": "authentication.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.asgi",
+        "description": "car_tracking_backend_api.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "car_tracking_backend_api.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-jl_l8mi(8o6c4#iwb)*-j&cybama164m73avqk7si#tc8snmfk'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-jl_l8mi(8o6c4#iwb)*-j&cybama164m73avqk7si#tc8snmfk'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # rest framework ",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    # rest framework \n    'rest_framework',\n    'rest_framework_simplejwt',",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': (\n        'rest_framework_simplejwt.authentication.JWTAuthentication',\n    ),\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',  # Inscription sans authentification\n    ],\n}\nAUTH_USER_MODEL = 'authentication.User'\nMIDDLEWARE = [",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'authentication.User'\nMIDDLEWARE = [\n    #cors \n    'corsheaders.middleware.CorsMiddleware',\n    # middlewares\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    #cors \n    'corsheaders.middleware.CorsMiddleware',\n    # middlewares\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SIMPLE_JWT",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "SIMPLE_JWT = {\n    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),\n    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),\n    'ROTATE_REFRESH_TOKENS': True,\n}\nROOT_URLCONF = 'car_tracking_backend_api.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "ROOT_URLCONF = 'car_tracking_backend_api.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'car_tracking_backend_api.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.sqlite3',\n#         'NAME': BASE_DIR / 'db.sqlite3',\n#     }\n# }\nDATABASES = {",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'cartracking',  \n        'USER': 'postgres', \n        'PASSWORD': '1234', \n        'HOST': 'localhost',\n        'PORT': '5432',\n    }\n}",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.settings",
+        "description": "car_tracking_backend_api.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "car_tracking_backend_api.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.urls",
+        "description": "car_tracking_backend_api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('authentication.urls')),\n    path('tracking/', include('tracking.urls'))\n]",
+        "detail": "car_tracking_backend_api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "car_tracking_backend_api.wsgi",
+        "description": "car_tracking_backend_api.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "car_tracking_backend_api.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tracking.migrations.0001_initial",
+        "description": "tracking.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Car',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('license_plate', models.CharField(max_length=20)),",
+        "detail": "tracking.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "TrackingConfig",
+        "kind": 6,
+        "importPath": "tracking.apps",
+        "description": "tracking.apps",
+        "peekOfCode": "class TrackingConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'tracking'",
+        "detail": "tracking.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "tracking.models",
+        "description": "tracking.models",
+        "peekOfCode": "class Car(models.Model):\n    license_plate = models.CharField(max_length=20)\n    model = models.CharField(max_length=50)\n    location = models.CharField(max_length=100)\n    last_update = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return f\"{self.model} - {self.license_plate}\"",
+        "detail": "tracking.models",
+        "documentation": {}
+    },
+    {
+        "label": "CarSerializer",
+        "kind": 6,
+        "importPath": "tracking.serializers",
+        "description": "tracking.serializers",
+        "peekOfCode": "class CarSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Car\n        fields = '__all__'",
+        "detail": "tracking.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "tracking.urls",
+        "description": "tracking.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'cars', CarViewSet)\nurlpatterns = [\n    path('', api_test_home, name='home'),  # page de test\n    path('api/', include(router.urls)),    # API REST\n]",
+        "detail": "tracking.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "tracking.urls",
+        "description": "tracking.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', api_test_home, name='home'),  # page de test\n    path('api/', include(router.urls)),    # API REST\n]",
+        "detail": "tracking.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CarViewSet",
+        "kind": 6,
+        "importPath": "tracking.views",
+        "description": "tracking.views",
+        "peekOfCode": "class CarViewSet(viewsets.ModelViewSet):\n    queryset = Car.objects.all()\n    serializer_class = CarSerializer\n# Page de test pour vérifier que le projet fonctionne\ndef api_test_home(request):\n    return JsonResponse({\"message\": \"Le projet Car Tracking fonctionne !\"})",
+        "detail": "tracking.views",
+        "documentation": {}
+    },
+    {
+        "label": "api_test_home",
+        "kind": 2,
+        "importPath": "tracking.views",
+        "description": "tracking.views",
+        "peekOfCode": "def api_test_home(request):\n    return JsonResponse({\"message\": \"Le projet Car Tracking fonctionne !\"})",
+        "detail": "tracking.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'car_tracking_backend_api.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
