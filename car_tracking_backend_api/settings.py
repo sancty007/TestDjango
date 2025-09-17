@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     # traking
     'tracking',
     'authentication',
+    # swagger 
+    'drf_yasg',
 
 ]
 
